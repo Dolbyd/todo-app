@@ -1,0 +1,16 @@
+.About {
+	
+}
+.About h1{
+    text-align: center;
+}
+
+.About p{
+    padding: 20px;
+    font-size: large;
+}
+
+.About p::first-letter{
+    color: #004611;
+    font-size: x-large;
+}
