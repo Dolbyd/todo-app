@@ -73,23 +73,6 @@ code {
   gap: 20px;
 }
 
-.link {
-  color: white;
-  margin-bottom: 15px;
-  font-size: 30px;
-  text-decoration: none;
-}
-
-
-.link .hover {
-  color: royalblue;
-
-  font-weight: 700;
-  font-size: xx-large;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 .button-success {
   height: 30px;
   width: 100px;

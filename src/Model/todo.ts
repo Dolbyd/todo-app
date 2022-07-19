@@ -5,6 +5,7 @@ export class TodoModel {
     public info?: string;
     public classification?: string;
     public dueDate?: Date;
+    
 
     public constructor(id: number, caption: string, info: string, classification: string, dueDate: Date) {
         this.id = id;

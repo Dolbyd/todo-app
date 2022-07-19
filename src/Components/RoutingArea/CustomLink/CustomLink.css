@@ -1,4 +1,4 @@
-.CustomLink {
+/* .CustomLink {
     color: black;
     margin-bottom: 15px;
     font-size: 30px;
@@ -12,4 +12,20 @@
     font-weight: 700;
     font-size: xx-large;
     text-decoration: dashed;
+} */
+
+.CustomLink {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.CustomLink .active {
+    color: royalblue;
+    font-weight: 700;
+    font-size: xx-large;
+    text-decoration: none;
+    cursor: pointer;
 }

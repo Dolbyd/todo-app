@@ -47,7 +47,6 @@ function TodoItem(props: TodoItemProps): JSX.Element {
     return (
         <div className="TodoItem">
             <h2 className="single-line-only">{props.task.caption}</h2>
-
             <div className="card">
                 <img src="https://cataas.com/cat/gif" alt={props.task.caption} />
                 <span>{props.task.classification}</span>
@@ -57,7 +56,6 @@ function TodoItem(props: TodoItemProps): JSX.Element {
                     <CustomLink to={`delete/${props.task.id}`}><MdDelete size={42} /></CustomLink>
                     <CustomLink to={`update/${props.task.id}`}><MdModeEdit size={42} /></CustomLink>
                 </div>
-
             </div>
         </div>
     );

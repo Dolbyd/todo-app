@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 import web from "../../../Services/WepApi";
 import store from "../../../Redux/Store";
 import { TasksDownloadedAction } from "../../../Redux/TasksAppState";
+import CustomLink from "../../RoutingArea/CustomLink/CustomLink";
 
 function TodoList(): JSX.Element {
 
@@ -30,12 +31,13 @@ function TodoList(): JSX.Element {
                     notify.error(err.message);
                 });
         }
-    }, [tasks]);
+    }, []);
 
     return (
         <div className="TodoList flex-center-col">
             <h2>todo list</h2>
-            <Link className="link" to={"add"}><FaPlus size={72} /></Link>
+            <CustomLink to="add"><FaPlus size={72} /></CustomLink>
+     
 
             {/* {tasks.map(t=><p key={t.id}>{t.title}</p>)} */}
             <div className="flex-row-non-wrap-list">
